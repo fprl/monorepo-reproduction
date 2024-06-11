@@ -4,7 +4,7 @@
 
 Hi everyone!
 
-I have a monorepo setup where i'm importing some Qwik components. All of them works as expected except from two, that interferes with the rest of the logic of the component they are called.
+I have a monorepo setup where i'm importing some Qwik components. All of them work as expected except for two, which interferes with the rest of the logic of the component they are called.
 
 So, if I import my components from `@ooakt/ui/show-more` inside a component that has some state, the show-more component works but the rest of the state/logic doesn't.
 
