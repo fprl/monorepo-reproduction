@@ -12,7 +12,7 @@ export default component$(() => {
 
   return (
     <div class="p-8 flex flex-col gap-y-12">
-      <a href="/works" class="text-red-500">Go to the one that works</a>
+      <a href="/works" class="text-green-500">Go to the one that works</a>
 
       <div class="max-w-prose border p-8 border-red-500 space-y-4">
         <p>
