@@ -8,6 +8,8 @@ I have a monorepo setup where i'm importing some Qwik components. All of them wo
 
 So, if I import my components from `@ooakt/ui/show-more` inside a component that has some state, the show-more component works but the rest of the state/logic doesn't.
 
+I tracked the error down to the `useContextProvider` in the show-more component. If I remove that line, the rest of the component where the show more is used works as expected.
+
 ### Reproduction
 
 - https://stackblitz.com/~/github.com/fprl/monorepo-reproduction
