@@ -1,0 +1,16 @@
+{
+  "extends": "@ooakt/typescript-config/qwik",
+  "compilerOptions": {
+    "types": [
+      "node",
+      "vite/client",
+      "unplugin-icons/types/qwik",
+      "google.maps"
+    ],
+    "paths": {
+      "~/*": ["./src/*"]
+    }
+  },
+  "files": ["./.eslintrc.cjs", "./tailwind.config.js", "./postcss.config.js"],
+  "include": ["src", "./*.d.ts", "./*.config.ts"]
+}

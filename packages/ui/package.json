@@ -1,0 +1,33 @@
+{
+  "name": "@ooakt/ui",
+  "type": "module",
+  "version": "0.1.0",
+  "private": true,
+  "main": "index.ts",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "lint": "npx eslint ."
+  },
+  "dependencies": {
+    "@ooakt/eslint-config": "^0.0.1",
+    "@ooakt/typescript-config": "^0.0.1",
+    "@ooakt/utils": "^0.1.0",
+    "@radix-ui/react-dialog": "^1.0.5",
+    "@radix-ui/react-popover": "^1.0.6",
+    "@radix-ui/react-slider": "^1.1.2",
+    "@radix-ui/react-slot": "^1.0.2",
+    "@tailwindcss/forms": "^0.5.7",
+    "@tailwindcss/typography": "^0.5.10",
+    "class-variance-authority": "^0.7.0",
+    "keen-slider": "^6.8.6",
+    "react-day-picker": "^8.10.1",
+    "tailwindcss-animate": "^1.0.7"
+  },
+  "peerDependencies": {
+    "@builder.io/qwik": "1.5.5",
+    "@builder.io/qwik-city": "1.5.5"
+  }
+}

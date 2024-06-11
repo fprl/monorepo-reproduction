@@ -1,0 +1,30 @@
+{
+	"name": "monorepo-reproduction",
+	"type": "module",
+	"version": "0.1.0",
+	"engines": {
+		"node": "18.17.1"
+	},
+	"packageManager": "npm@9.6.7",
+	"private": true,
+	"workspaces": [
+		"apps/*",
+		"packages/*"
+	],
+	"scripts": {
+		"preinstall": "npx only-allow npm",
+		"build": "npm run build --workspaces",
+		"dev": "npm run dev --workspaces",
+		"lint": "npx eslint .",
+		"format": "prettier --write \"**/*.{ts,tsx,md}\""
+	},
+	"devDependencies": {
+		"prettier": "^3.3.1",
+		"prettier-plugin-tailwindcss": "^0.6.1",
+		"tsx": "^4.13.0",
+		"typescript": "^5.4.5"
+	},
+	"dependencies": {
+		"dotenv-cli": "^7.2.1"
+	}
+}

@@ -1,0 +1,8 @@
+{
+  "extends": "@ooakt/typescript-config/qwik",
+  "compilerOptions": {
+    "types": ["node", "vite/client"]
+  },
+  "files": ["./.eslintrc.cjs", "./tailwind.config.mjs"],
+  "include": ["./*.tsx"]
+}
