@@ -4,8 +4,6 @@
     "types": [
       "node",
       "vite/client",
-      "unplugin-icons/types/qwik",
-      "google.maps"
     ],
     "paths": {
       "~/*": ["./src/*"]
