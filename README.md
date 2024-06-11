@@ -1,4 +1,4 @@
-Issue with `useContextProvider` in monorepo contexts.
+# Issue with `useContextProvider` in monorepo setup.
 
 ### Describe the bug
 
